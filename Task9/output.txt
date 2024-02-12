@@ -1,0 +1,1 @@
+{"domain":"finalexam-service","endpoint":"/check-ingress","full_path:":"finalexam-service/check-ingress"}

@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: finalexam
+  name: finalexam
+  namespace: bekhzod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: finalexam
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: finalexam
+    spec:
+      containers:
+        - image: nvrbckdown/flask-app:final-exam
+          name: flask-app
+          env:
+            - name: AUTHOR
+              value: "BEKHZOD"
+            - name: POD
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NODE
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName

@@ -1,0 +1,11 @@
+NAME                            DESIRED   CURRENT   READY   AGE
+finalexam-5fbfcf7bff            0         0         0       21m
+finalexam-7c6f59cf7b            1         1         1       20m
+flask-app-64754794f6            2         2         2       75m
+flask-app-66bfd8f96c            0         0         0       78m
+frontend-something-7c75bc8545   1         1         0       105s
+nginx-68648b6b6d                0         0         0       47m
+nginx-6dbbddbdd8                1         1         0       31m
+nginx-7854ff8877                0         0         0       51m
+nginx-7ff7799f6                 1         1         1       48m
+nginx-889876d48                 0         0         0       33m

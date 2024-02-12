@@ -1,0 +1,24 @@
+NAMESPACE    NAME     READY   STATUS             RESTARTS        AGE     IP              NODE    NOMINATED NODE   READINESS GATES
+abdulaziz    nginx1   1/1     Running            0               22m     10.233.66.85    node2   <none>           <none>
+abdulaziz    nginx2   1/1     Running            0               21m     10.233.66.88    node2   <none>           <none>
+alisher      nginx1   1/1     Running            0               5m      10.233.67.42    node3   <none>           <none>
+asilbek      nginx1   1/1     Running            0               22m     10.233.66.87    node2   <none>           <none>
+asilbek      nginx2   1/1     Running            0               21m     10.233.68.92    node4   <none>           <none>
+asrorbek     nginx1   1/1     Running            0               25m     10.233.66.82    node2   <none>           <none>
+asrorbek     nginx2   1/1     Running            0               25m     10.233.66.83    node2   <none>           <none>
+azizbek      nginx1   1/1     Running            0               21m     10.233.66.89    node2   <none>           <none>
+azizbek      nginx2   1/1     Running            0               21m     10.233.68.93    node4   <none>           <none>
+bekhzod      nginx1   1/1     Running            0               11m     10.233.68.124   node4   <none>           <none>
+bekhzod      nginx2   1/1     Running            0               10m     10.233.68.129   node4   <none>           <none>
+dilshod      nginx1   0/1     CrashLoopBackOff   7 (2m59s ago)   13m     10.233.68.113   node4   <none>           <none>
+dilshod      nginx2   0/1     CrashLoopBackOff   5 (108s ago)    5m      10.233.68.141   node4   <none>           <none>
+farhod       nginx1   1/1     Running            0               10m     10.233.68.128   node4   <none>           <none>
+farhod       nginx2   1/1     Running            0               9m49s   10.233.68.130   node4   <none>           <none>
+ismoil       nginx1   1/1     Running            0               19m     10.233.68.98    node4   <none>           <none>
+ismoil       nginx2   1/1     Running            0               19m     10.233.68.99    node4   <none>           <none>
+negmatov     nginx1   1/1     Running            0               20m     10.233.68.94    node4   <none>           <none>
+negmatov     nginx2   1/1     Running            0               20m     10.233.68.95    node4   <none>           <none>
+otabek       nginx1   1/1     Running            0               16m     10.233.68.103   node4   <none>           <none>
+otabek       nginx2   1/1     Running            0               16m     10.233.68.105   node4   <none>           <none>
+sirojiddin   nginx1   1/1     Running            0               22m     10.233.66.86    node2   <none>           <none>
+sirojiddin   nginx2   1/1     Running            0               20m     10.233.68.96    node4   <none>           <none>

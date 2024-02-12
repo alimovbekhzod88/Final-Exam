@@ -1,0 +1,9 @@
+NAME                         READY   STATUS                       RESTARTS        AGE
+busybox                      1/1     Running                      1 (8m31s ago)   61m
+finalexam-7c6f59cf7b-tqvfq   1/1     Running                      0               44s
+flask-app-64754794f6-svzjt   1/1     Running                      0               55m
+flask-app-64754794f6-v85kx   1/1     Running                      0               55m
+nginx-6dbbddbdd8-wvtht       0/1     CreateContainerConfigError   0               11m
+nginx-7ff7799f6-dnjxn        1/1     Running                      0               28m
+nginx1                       1/1     Running                      0               117m
+nginx2                       1/1     Running                      0               44m

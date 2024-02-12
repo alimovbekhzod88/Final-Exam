@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: frontend-something
+  name: frontend-something
+  namespace: bekhzod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend-something
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: frontend-something
+    spec:
+      containers:
+      - image: nvrbckdown/frontend-something
+        name: frontend-something
+        resources: {}
+status: {}

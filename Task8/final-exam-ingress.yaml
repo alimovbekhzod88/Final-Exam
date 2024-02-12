@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  creationTimestamp: "2024-02-12T16:27:53Z"
+  generation: 1
+  name: final-exam-ingress
+  namespace: bekhzod
+  resourceVersion: "5036583"
+  uid: c1dbb885-c14b-4836-9094-f07d9f8e3213
+spec:
+  rules:
+    - host: bekhzod.nvrbckdown.uz
+      http:
+        paths:
+          - backend:
+              service:
+                name: finalexam
+                port:
+                  number: 5000
+            path: /
+            pathType: Exact
+status:
+  loadBalancer: {}
